@@ -1,0 +1,12 @@
+{
+  "name": "bot-n4t0",
+  "version": "1.0.0",
+  "description": "Bot Discord 24/7",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
