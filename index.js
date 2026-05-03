@@ -149,4 +149,4 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.customId === 'r_n') await interaction.channel.send('❌ **PRZYKRO NAM.** Twoje podanie zostało odrzucone.');
 });
 
-client.login(process.env.TOKEN);
+client.login(cfg.token);
