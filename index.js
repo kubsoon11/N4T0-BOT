@@ -152,3 +152,4 @@ client.on('interactionCreate', async (interaction) => {
 client.login(cfg.token);
 console.log("Próbuję zalogować bota...");
 client.login(process.env.TOKEN).catch(err => console.error("BŁĄD LOGOWANIA:", err));
+console.log("Czy widzę token?:", process.env.TOKEN ? "TAK (ukryty)" : "NIE (pusto!)");
